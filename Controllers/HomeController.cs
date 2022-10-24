@@ -28,6 +28,8 @@ namespace RazorPages.Controllers
         [HttpGet]
         public IActionResult InquiryForm()
         {
+            ViewBag.Posted = false;
+            ViewData["ServicesID"] = new SelectList(_context.Services, "Classification", "Classification");
             return View();
         }
         [HttpPost]
