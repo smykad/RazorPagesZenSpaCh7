@@ -9168,11 +9168,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dougs\\OneDrive\\Desktop\\RazorPagesZenSpaCh7\\RazorPages.csproj",
+      "projectUniqueName": "C:\\Users\\dougs\\OneDrive\\Desktop\\218\\RazorPagesZenSpaCh7\\RazorPages.csproj",
       "projectName": "RazorPages",
-      "projectPath": "C:\\Users\\dougs\\OneDrive\\Desktop\\RazorPagesZenSpaCh7\\RazorPages.csproj",
+      "projectPath": "C:\\Users\\dougs\\OneDrive\\Desktop\\218\\RazorPagesZenSpaCh7\\RazorPages.csproj",
       "packagesPath": "C:\\Users\\dougs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dougs\\OneDrive\\Desktop\\RazorPagesZenSpaCh7\\obj\\",
+      "outputPath": "C:\\Users\\dougs\\OneDrive\\Desktop\\218\\RazorPagesZenSpaCh7\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
