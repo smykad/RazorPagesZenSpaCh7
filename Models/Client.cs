@@ -11,6 +11,7 @@ namespace RazorPages.Models
         [Required(ErrorMessage = "First Name is required")]
         [Display(Name = "First Name")]
         [Column("First Name")]
+        [RegularExpression("^[a-zA-Z]*$", ErrorMessage = "Only alphabetic letters are allowed.")]
         public string FirstName { get; set; }
 
         [Required(ErrorMessage = "Last name is required")]
@@ -20,6 +21,8 @@ namespace RazorPages.Models
 
         public string Address { get; set; }
         public string City { get; set; }
+
+        [RegularExpression("^[a-zA-Z]*$", ErrorMessage = "Only alphabetic letters are allowed.")]
         public string State { get; set; }
         
         [Display(Name = "Zipcode")]
@@ -29,6 +32,7 @@ namespace RazorPages.Models
         public string Phone { get; set; }
 
         [Required(ErrorMessage = "Email is required")]
+        [RegularExpression(@"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}", ErrorMessage = "Incorrect Email Format")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Username is required")]
